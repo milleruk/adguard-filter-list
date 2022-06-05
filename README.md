@@ -9,7 +9,7 @@ This list combines more than 80 other lists, including the default lists from Ad
 
 ## How can I use it?
 
-Pretty simple, copy this link (https://github.com/milleruk/adguard-filter-list/blob/master/blocklist?raw=true) and add it to your AdGuardHome DNS blocklists.
+Pretty simple, copy this link (https://github.com/milleruk/adguard-filter-list/blob/main/blocklist?raw=true) and add it to your AdGuardHome DNS blocklists.
 
 
 ## Which lists are combined here?
