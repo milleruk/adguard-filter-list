@@ -3,7 +3,7 @@
 cd /home/adguard-filter-list
 
 # Create compiled blocklist
-#time /usr/local/bin/hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist
+time /usr/local/bin/hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist
 
 # Date and time
 currentDate=`/bin/date '+%Y-%m-%d'`
