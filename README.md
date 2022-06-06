@@ -63,7 +63,6 @@ Which lists I'm using here, you can see in hostlist compiler configuration » [c
 | VeleSila - yhosts | https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts |
 | RooneyMcNibNug - PiHole Stuff (SNAFU) | https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt |
 | anudeepND - Adservers | https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt |
-| anudeepND - Facebook | https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt |
 | Ad filter list by Disconnect | https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt |
 | Peter Lowe's List | https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext |
 | Perflyst and Dandelion Sprout's Smart-TV Blocklist | https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt |

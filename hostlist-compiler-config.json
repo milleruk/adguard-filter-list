@@ -401,15 +401,6 @@
       ]
     },
     {
-      "name": "anudeepND - Facebook",
-      "source": "https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt",
-      "type": "hosts",
-      "transformations": [
-        "RemoveComments",
-        "Compress"
-      ]
-    },
-    {
       "name": "Ad filter list by Disconnect",
       "source": "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt",
       "type": "adblock",
