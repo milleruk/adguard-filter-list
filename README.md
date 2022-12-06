@@ -4,7 +4,7 @@
 
 This is a DNS blocklist that can be used for AdGuardHome. (Does not work with Pi-hole)
 
-This list combines more than 80 other lists, including the default lists from AdGuardHome, into one single list, so you don't have to add countless lists to your AdGuardHome, but just this one.
+This list combines more than 40 other lists, including the default lists from AdGuardHome, into one single list, so you don't have to add countless lists to your AdGuardHome, but just this one.
 
 
 ## How can I use it?
@@ -57,7 +57,6 @@ Which lists I'm using here, you can see in hostlist compiler configuration » [c
 | Firebog - Easylist | https://v.firebog.net/hosts/Easylist.txt |
 | Firebog - Prigent Crypto | https://v.firebog.net/hosts/Prigent-Crypto.txt |
 | Firebog - Prigent Malware | https://v.firebog.net/hosts/Prigent-Malware.txt |
-| Firebog - Shalla-mal | https://v.firebog.net/hosts/Shalla-mal.txt |
 | Matomo - Referrer Spam Blacklist | https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt |
 | Matomo.org - Referrer Spammers | https://raw.githubusercontent.com/matomo-org/referrer-spam-list/master/spammers.txt |
 | VeleSila - yhosts | https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts |
