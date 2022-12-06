@@ -356,15 +356,6 @@
       ]
     },
     {
-      "name": "Firebog - Shalla-mal",
-      "source": "https://v.firebog.net/hosts/Shalla-mal.txt",
-      "type": "adblock",
-      "transformations": [
-        "RemoveComments",
-        "Compress"
-      ]
-    },
-    {
       "name": "Matomo - Referrer Spam Blacklist",
       "source": "https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt",
       "type": "adblock",
@@ -754,6 +745,16 @@
     {
       "name": "Phishing URL Blocklist (AdGuard Home)",
       "source": "https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    }
+    ,
+    {
+      "name": "FR: French filters RedFlagDomains",
+      "source": "https://dl.red.flag.domains/red.flag.domains.txt",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
