@@ -10,7 +10,18 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
+      ]
+    },
+    {
+      "name": "AdGuard MobileFilter",
+      "source": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/specific_app.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -19,7 +30,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -28,7 +40,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -37,7 +50,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -46,7 +60,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -55,7 +70,7 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Validate"
       ]
     },
     {
@@ -64,7 +79,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -73,16 +89,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
-      ]
-    },
-    {
-      "name": "ITA: Filtri-DNS",
-      "source": "https://filtri-dns.ga/filtri.txt",
-      "type": "hosts",
-      "transformations": [
-        "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -91,7 +99,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -100,7 +109,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -109,7 +119,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -118,7 +129,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -127,7 +139,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -136,7 +149,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -145,7 +159,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -154,7 +169,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -163,7 +179,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -172,7 +189,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -181,7 +199,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -190,7 +209,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -199,7 +219,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -208,7 +229,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -217,7 +239,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -226,16 +249,18 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
-      "name": "OISD Full List",
-      "source": "https://abp.oisd.nl",
+      "name": "OISD Big List",
+      "source": "../data/oisd.txt",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -244,7 +269,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -253,7 +279,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -262,7 +289,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -271,7 +299,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -280,7 +309,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -289,7 +319,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -298,7 +329,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -307,7 +339,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -316,7 +349,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -325,7 +359,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -334,7 +369,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -343,7 +379,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -352,7 +389,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -361,7 +399,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -370,7 +409,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -379,7 +419,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -388,7 +429,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -397,7 +439,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -406,7 +449,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -415,7 +459,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -424,7 +469,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -433,7 +479,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -442,7 +489,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -451,7 +499,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -460,7 +509,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -469,7 +519,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -478,7 +529,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -487,7 +539,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -496,7 +549,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -505,7 +559,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -514,16 +569,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
-      ]
-    },
-    {
-      "name": "Phishing Army - The Blocklist to filter Phishing",
-      "source": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
-      "type": "adblock",
-      "transformations": [
-        "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -532,7 +579,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -541,7 +589,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -550,7 +599,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -559,7 +609,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -568,7 +619,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -577,16 +629,18 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
       "name": "AdGuard CNAME disguised trackers list",
-      "source": "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers.txt",
+      "source": "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers.txt",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -595,7 +649,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -604,7 +659,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -613,7 +669,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -622,79 +679,88 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
       "name": "NextDNS Privacy - Alexa",
-      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/alexa",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/alexa",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
       "name": "NextDNS Privacy - Apple",
-      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/apple",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/apple",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
       "name": "NextDNS Privacy - Huawei",
-      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/huawei",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/huawei",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
       "name": "NextDNS Privacy - Roku",
-      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/roku",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/roku",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
       "name": "NextDNS Privacy - Samsung",
-      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/samsung",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/samsung",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
       "name": "NextDNS Privacy - Sonos",
-      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/sonos",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/sonos",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
       "name": "NextDNS Privacy - Windows",
-      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/windows",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/windows",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
       "name": "NextDNS Privacy - Xiaomi",
-      "source": "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/xiaomi",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/xiaomi",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -703,7 +769,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -712,7 +779,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -721,7 +789,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -730,7 +799,8 @@
       "type": "hosts",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -739,7 +809,8 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
     },
     {
@@ -748,22 +819,58 @@
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
       ]
-    }
-    ,
+    },
     {
-      "name": "FR: French filters RedFlagDomains",
-      "source": "https://dl.red.flag.domains/red.flag.domains.txt",
+      "name": "HaGeZi's Multi DNS Blocklist",
+      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
-        "Compress"
+        "Compress",
+        "Validate"
+      ]
+    },
+    {
+      "name": "HaGeZi's DoH/VPN/TOR/Proxy Bypass DNS Blocklist",
+      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress",
+        "Validate"
+      ]
+    },
+    {
+      "name": "HaGeZi's Fake DNS Blocklist",
+      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/fake.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress",
+        "Validate"
+      ]
+    },
+    {
+      "name": "HaGeZi's Threat Intelligence Feeds DNS Blocklist",
+      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress",
+        "Validate"
       ]
     }
   ],
   "transformations": [
     "RemoveComments",
-    "Deduplicate"
+    "Validate",
+    "Deduplicate",
+    "TrimLines",
+    "InsertFinalNewLine",
+    "RemoveEmptyLines"
   ]
 }
+
