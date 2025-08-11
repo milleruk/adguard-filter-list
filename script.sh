@@ -4,9 +4,12 @@
 # Navigate to blocklist directory
 cd /home/adguard-filter-list/ || { echo "Directory not found: ./data/blocklist/"; exit 1; }
 
+# Make sure we have latest repo
+git pull
+
 # Download the oisd.txt file
 oisd_url="https://big.oisd.nl"
-oisd_file="oisd.txt"
+oisd_file="../oisd.txt"
 
 echo "Downloading oisd.txt from $oisd_url..."
 wget -q -O $oisd_file $oisd_url
@@ -24,6 +27,9 @@ cd /opt/adguard-filter-list/
 
 # Create compiled blocklist
 time /usr/local/bin/hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist
+
+sed -i '/^@@/d' blocklist
+sed -i '/^$/d' blocklist
 
 # Date and time
 currentDate=`/bin/date '+%Y-%m-%d'`
