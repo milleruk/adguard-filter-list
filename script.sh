@@ -1,8 +1,7 @@
 #!/bin/bash
 
-
 # Navigate to blocklist directory
-cd /home/adguard-filter-list/ || { echo "Directory not found: ./data/blocklist/"; exit 1; }
+cd /home/adguard-filter-list/
 
 # Make sure we have latest repo
 git pull
@@ -12,7 +11,7 @@ oisd_url="https://big.oisd.nl"
 oisd_file="../oisd.txt"
 
 echo "Downloading oisd.txt from $oisd_url..."
-wget -q -O $oisd_file $oisd_url
+curl $oisd_url -o $oisd_file
 
 
 # Verify the download
@@ -22,8 +21,6 @@ if [[ $? -ne 0 || ! -f $oisd_file ]]; then
 else
   echo "Successfully downloaded $oisd_file"
 fi
-
-cd /opt/adguard-filter-list/
 
 # Create compiled blocklist
 time /usr/local/bin/hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist
